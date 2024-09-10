@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No temas: El Faro en la Tormenta</title>
+    <link rel="shortcut icon" href="/accesorios/ico/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/styles/estilos.css">
+    <link rel="stylesheet" href="/styles/contacto.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Nerko+One&family=Playwrite+CU:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="bebas-neue-regular">No temas</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="notemas.html">No temas en la Biblia</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="activo" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2>Datos para comunicarnos contigo</h2>
+    <hr>
+    <div class="contenedor">
+        <form action="">
+            <label for="text1">Nombre</label>
+            <input type="text" name="text1" id="text1" placeholder="Escribe tu nombre" required minlength="3">
+            <br>
+            <label for="text2">Apellido</label>
+            <input type="text" name="text2" id="text2" placeholder="Escribe tu apellido" required minlength="3">
+            <br>
+            <label for="text3">E-mail</label>
+            <input type="email" name="text3" id="text3" placeholder="Escribe tu correo electronico" required>
+            <br>
+            <label for="combo1">De que ciudad nos escribe</label>
+            <select name="combo1" id="combo1">
+                <option value="Caracas">Caracas</option>
+                <option value="Valencia">Valencia</option>
+                <option value="Maracay">Maracay</option>
+                <option value="Maracaibo">Maracaibo</option>
+                <option value="PuertoLaCruz">Puerto la Cruz</option>
+                <option value="Maturin">Maturin</option>
+                <option value="Merida">Mérida</option>
+                <option value="SanCristobal">San Cristóbal</option>
+            </select>
+            <br>
+            <label for="texarea1">Escribe un comentario</label>
+            <textarea name="texarea1" id="texarea1" placeholder="Pega o escribe acá un comentario"></textarea>
+            <br>
+            <label for="radio1">Por donde nos conocio</label>
+            <input type="radio" name="radio1" id="radio1"><i>Twiter</i>
+            <input type="radio" name="radio1" id="radio1"><i>Facebook</i>
+            <input type="radio" name="radio1" id="radio1"><i>Youtube</i>
+            <input type="radio" name="radio1" id="radio1"><i>Radio</i>
+            <input type="radio" name="radio1" id="radio1"><i>Por otra persona</i>
+            <br>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <footer>
+        <p>Derechos reservados &copy; 2024</p>
+    </footer>
+</body>
+</html>
